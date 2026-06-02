@@ -17,6 +17,7 @@
 | **교육과정** | 융합\_데이터 기반 차세대 디지털 헬스케어 AI 솔루션 5기 |
 | **주관** | 고용노동부 K-디지털 트레이닝 / 아시아경제 교육센터 |
 | **교육 기간** | 2026.02.03 ~ 2026.07.30 |
+| **개발 기간** | 2026.02.05 ~ 2026.02.26 |
 | **장르** | 2D 폐 방어 슈팅게임 (건강 교육용) |
 | **개발 언어** | Python / Pygame |
 
@@ -80,9 +81,13 @@
 
 ### 방법 1 — EXE 실행 (권장, 설치 없이 바로 실행)
 
-[📥 최신 버전 다운로드 → Releases](../../releases/latest)
+[📥 game.exe 다운로드 → Releases](../../releases/latest)
 
-압축 해제 후 `강철폐포부대.exe` 실행
+1. 위 링크에서 `game.zip` 다운로드
+2. ZIP 압축 해제
+3. `game.exe` 실행
+
+> Python 설치 불필요. 모든 리소스가 EXE 안에 포함되어 있습니다.
 
 ### 방법 2 — Python 소스 직접 실행
 
@@ -139,17 +144,20 @@ def load_sound(path):
 
 ```
 pygame_Lung_Defense/
-├── game.py                  # 메인 게임 소스코드
+├── game.py              # 메인 게임 소스코드
 ├── README.md
-├── image/                   # 이미지 리소스
-│   ├── 플레이어, 적, 아이템 스프라이트
-│   ├── 배경, 스토리 이미지
-│   └── UI 버튼 및 아이콘
-├── sound/                   # 사운드 리소스
-│   ├── BGM (타이틀, 인게임)
-│   └── 효과음 (발사, 아이템, 결과 등)
+├── image/               # 이미지 리소스
+│   ├── alveolus.png         # 플레이어 (폐포 병사)
+│   ├── dust.png / food.png / cigarette.png   # 적 이미지
+│   ├── boss1.png ~ boss3.png                 # 보스 이미지
+│   ├── broccoli.png / water.png / nebulizer.png  # 아이템
+│   ├── background.png / story1~7.png         # 배경·스토리
+│   └── ...                                   # UI 버튼, 아이콘 등
+├── sound/               # 사운드 리소스
+│   ├── 배경음1.mp3 / 배경음2.mp3
+│   └── ...              # 효과음 파일들
 └── font/
-    └── Bazzi.ttf            # 커스텀 폰트 (없으면 Arial 자동 대체)
+    └── Bazzi.ttf        # 커스텀 폰트 (없으면 Arial 자동 대체)
 ```
 
 ---
