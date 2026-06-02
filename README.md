@@ -81,7 +81,7 @@
 
 ### 방법 1 — EXE 실행 (권장, 설치 없이 바로 실행)
 
-[📥 game.exe 다운로드 → Releases](../../releases/latest)
+[📥 game.exe 다운로드 (Google Drive)](https://drive.google.com/file/d/1Rv60I5hDuJthVpVNzsxjYSUkCNHqk3w0/view?usp=sharing)
 
 1. 위 링크에서 `game.zip` 다운로드
 2. ZIP 압축 해제
