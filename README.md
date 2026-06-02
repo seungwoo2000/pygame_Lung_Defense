@@ -6,7 +6,7 @@
 ---
 
 
-[![시연 영상](https://img.youtube.com/vi/YzkoLUR_YyA/maxresdefault.jpg)](https://youtu.be/YzkoLUR_YyA)
+[▶ 시연 영상 보기](https://youtu.be/YzkoLUR_YyA)
 
 ---
 
