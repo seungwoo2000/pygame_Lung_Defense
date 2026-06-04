@@ -68,7 +68,7 @@
 
 | 플랫폼 | 다운로드 |
 |:---:|:---:|
-| 🪟 **Windows** | [📥 강철폐포부대.exe 다운로드](#) |
+| 🪟 **Windows** | [📥 강철폐포부대.exe 다운로드](https://drive.google.com/file/d/1Rv60I5hDuJthVpVNzsxjYSUkCNHqk3w0/view?usp=drive_link) |
 
 
 ---
